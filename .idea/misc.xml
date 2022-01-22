@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/organizze/app/src/main/res/drawable/ic_cadeado_cinza.xml" value="0.1" />
+        <entry key="..\:/organizze/app/src/main/res/drawable/ic_email_cinza.xml" value="0.1" />
+        <entry key="..\:/organizze/app/src/main/res/drawable/ic_pessoa_cinza.xml" value="0.1" />
+        <entry key="..\:/organizze/app/src/main/res/layout/activity_cadastro.xml" value="0.33" />
+        <entry key="..\:/organizze/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/organizze/app/src/main/res/layout/intro_01.xml" value="0.22" />
+        <entry key="..\:/organizze/app/src/main/res/layout/intro_02.xml" value="0.33" />
+        <entry key="..\:/organizze/app/src/main/res/layout/intro_03.xml" value="0.33" />
+        <entry key="..\:/organizze/app/src/main/res/layout/intro_04.xml" value="0.33" />
+        <entry key="..\:/organizze/app/src/main/res/layout/intro_05.xml" value="0.1703125" />
+        <entry key="..\:/organizze/app/src/main/res/layout/intro_cadastro.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

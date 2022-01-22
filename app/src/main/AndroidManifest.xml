@@ -10,8 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Organizze">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".activity.Principal"
+            android:exported="false"
+            android:label="@string/title_activity_principal"
+            android:theme="@style/Theme.Organizze.NoActionBar" />
+        <activity
+            android:name=".activity.cadastroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.loginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Intro">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
