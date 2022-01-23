@@ -21,6 +21,7 @@ public class MainActivity extends IntroActivity{
 
 
 
+
         //removendo os botoes dos slides(que vem por padrao)
         setButtonBackVisible(false);
         setButtonNextVisible(false);
@@ -83,7 +84,9 @@ public class MainActivity extends IntroActivity{
 
    public void verificarUsuarioLogado(){
 
+
         auth = ConfiguracaoFirebase.getAuth();
+
         if(auth.getCurrentUser() != null){
             abrirTelaInicial();
         }

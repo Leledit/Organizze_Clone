@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
     tools:context=".activity.Principal">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -22,13 +23,37 @@
 
     <include layout="@layout/content_principal" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    <com.github.clans.fab.FloatingActionMenu
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:layout_marginEnd="@dimen/fab_margin"
-        android:layout_marginBottom="16dp"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        android:layout_margin="10dp"
+        fab:menu_icon="@drawable/ic_adicionar_branco"
+        fab:menu_colorNormal="#DA4336"
+        fab:menu_colorPressed="#932C23"
+        >
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu_despesa"
+            android:layout_width="wrap_content"
+            android:onClick="adicionarDespesa"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_adicionar_branco"
+            fab:fab_colorNormal="@color/colorPrimaryDespesa"
+            fab:fab_label="Despeza"
+            fab:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu_receita"
+            android:layout_width="wrap_content"
+            android:onClick="adicionarReceita"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/colorPrimaryReceitas"
+            android:src="@drawable/ic_adicionar_branco"
+            fab:fab_label="Receita"
+            fab:fab_size="mini" />
+
+    </com.github.clans.fab.FloatingActionMenu>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

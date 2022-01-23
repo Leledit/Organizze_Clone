@@ -7,7 +7,10 @@
         <entry key="..\:/organizze/app/src/main/res/drawable/ic_email_cinza.xml" value="0.1" />
         <entry key="..\:/organizze/app/src/main/res/drawable/ic_pessoa_cinza.xml" value="0.1" />
         <entry key="..\:/organizze/app/src/main/res/layout/activity_cadastro.xml" value="0.33" />
+        <entry key="..\:/organizze/app/src/main/res/layout/activity_despesas.xml" value="0.25" />
         <entry key="..\:/organizze/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/organizze/app/src/main/res/layout/activity_principal.xml" value="0.20416666666666666" />
+        <entry key="..\:/organizze/app/src/main/res/layout/activity_receitas.xml" value="0.20416666666666666" />
         <entry key="..\:/organizze/app/src/main/res/layout/fragment_first.xml" value="0.1" />
         <entry key="..\:/organizze/app/src/main/res/layout/intro_01.xml" value="0.22" />
         <entry key="..\:/organizze/app/src/main/res/layout/intro_02.xml" value="0.33" />

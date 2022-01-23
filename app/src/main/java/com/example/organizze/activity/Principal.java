@@ -1,5 +1,6 @@
 package com.example.organizze.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.organizze.databinding.ActivityPrincipalBinding;
@@ -50,5 +51,12 @@ public class Principal extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_principal);
         return NavigationUI.navigateUp(navController, appBarConfiguration)
                 || super.onSupportNavigateUp();
+    }
+
+    public void adicionarReceita(View view){
+        startActivity(new Intent(this, Receitas.class));
+    }
+    public void adicionarDespesa(View view){
+        startActivity(new Intent(this, Despesas.class));
     }
 }
