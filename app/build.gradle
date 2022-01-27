@@ -46,6 +46,19 @@ dependencies {
     implementation('com.google.firebase:firebase-auth')
     implementation 'com.heinrichreimersoftware:material-intro:2.0.0'
     implementation('com.github.clans:fab:1.6.4')
+   implementation ('com.prolificinteractive:material-calendarview:1.4.3')
+
+    /* implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation('com.android.support:recyclerview-v7:28.0.0')
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation(' com.android.support:preference-v7:28.0.0')
+    Implementation 'com.android.support:cardview-v7'
+
+    */
+    implementation 'com.android.support:cardview-v7'
+
+
+
 }
 
 apply plugin: 'com.google.gms.google-services'

@@ -127,6 +127,8 @@ public class Receitas extends AppCompatActivity {
 
             //salvando os dados da nova movimentação
             movimentacao.salvar(dataEscolhida);
+
+            finish();
         }
 
     }
